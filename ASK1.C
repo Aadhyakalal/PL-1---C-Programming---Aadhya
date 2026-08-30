@@ -1,4 +1,5 @@
-/* Program 1) Write a program to make use of basic INPUT/OUTPUT functions
+/* Program (1) 
+Write a program to make use of basic INPUT/OUTPUT functions
  using different data types
  solution(1) Predefined values
  */
