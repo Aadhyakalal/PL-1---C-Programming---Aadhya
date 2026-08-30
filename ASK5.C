@@ -1,4 +1,5 @@
-/* Program(5)Write a program to calculate the average of three numbers
+/* Program(5)
+Write a program to calculate the average of three numbers
 Solution (1) Predefined values*/
 
 #include<stdio.h>
