@@ -1,0 +1,20 @@
+// solution(2) User defined values
+#include <stdio.h>
+int main()
+{
+int rollnum;
+float per;
+char grade;
+printf("/n Enter Student Roll no:");
+scanf("%d",&rollnum);
+printf("/n Enter Student Percentage:");
+scanf("%f",&per);
+printf("/n Enter Student Grade:");
+scanf("%c",&grade);
+printf("/n-----Student Information----/n");
+printf("/Roll number is:%d",rollnum);
+printf("/n Percentage is :%f",per);
+printf("/n Grade:%c",grade);
+
+return 0;
+}
