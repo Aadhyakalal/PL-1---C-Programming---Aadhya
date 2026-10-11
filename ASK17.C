@@ -1,0 +1,66 @@
+/*
+Program (17) -> Write a program to accept elements of integer, float, and character arrays from the user
+and display the value and corresponding memory address of each array element.
+Solution (1): Pre define values in the program without any loop - Explicitly you write the program
+*/
+
+#include<stdio.h>
+int main()
+{
+    int var1[5];
+    float var2[5];
+    char var3[5];
+
+    var1[0]=10;
+    var1[1]=20;
+    var1[2]=30;
+    var1[3]=40;
+    var1[4]=50;
+
+    printf("\nThe value of var1 index 0 is %d",var1[0]);
+    printf("\nand address is %d",&var1[0]);
+    printf("\nThe value of var1 index 1 is %d",var1[1]);
+    printf("\nand address is %d",&var1[1]);
+    printf("\nThe value of var1 index 2 is %d",var1[2]);
+    printf("\nand address is %d",&var1[2]);
+    printf("\nThe value of var1 index 3 is %d",var1[3]);
+    printf("\nand address is %d",&var1[3]);
+    printf("\nThe value of var1 index 4 is %d",var1[4]);
+    printf("\nand address is %d",&var1[4]);
+
+    var2[0]=1.1;
+    var2[1]=2.2;
+    var2[2]=3.3;
+    var2[3]=4.4;
+    var2[4]=5.5;
+
+    printf("\n\nThe value of var2 index 0 is %f",var2[0]);
+    printf("\nand address is %d",&var2[0]);
+    printf("\nThe value of var2 index 1 is %f",var2[1]);
+    printf("\nand address is %d",&var2[1]);
+    printf("\nThe value of var2 index 2 is %f",var2[2]);
+    printf("\nand address is %d",&var2[2]);
+    printf("\nThe value of var2 index 3 is %f",var2[3]);
+    printf("\nand address is %d",&var2[3]);
+    printf("\nThe value of var2 index 4 is %f",var2[4]);
+    printf("\nand address is %d",&var2[4]);
+
+    var3[0]='A';
+    var3[1]='B';
+    var3[2]='C';
+    var3[3]='D';
+    var3[4]='E';
+
+    printf("\n\nThe value of var3 index 0 is %c",var3[0]);
+    printf("\nand address is %d",&var3[0]);
+    printf("\nThe value of var3 index 1 is %c",var3[1]);
+    printf("\nand address is %d",&var3[1]);
+    printf("\nThe value of var3 index 2 is %c",var3[2]);
+    printf("\nand address is %d",&var3[2]);
+    printf("\nThe value of var3 index 3 is %c",var3[3]);
+    printf("\nand address is %d",&var3[3]);
+    printf("\nThe value of var3 index 4 is %c",var3[4]);
+    printf("\nand address is %d",&var3[4]);
+
+    return 0;
+}
